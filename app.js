@@ -14,10 +14,6 @@ import thunk from 'redux-thunk'
 
 const store = createStore(combineReducers(reducer), applyMiddleware(thunk))
 
-
-
-// const store = createStore(combineReducers(reducer));
-
 const browserHistory = useRouterHistory(createHistory)({
   basename: ''
 });

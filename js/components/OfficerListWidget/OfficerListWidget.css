@@ -1,0 +1,21 @@
+.officerlist__inputlinegroup {
+
+}
+.officerlist__inputline {
+  display: inline-block;
+  width: 80%;
+  border: 1px solid black;
+}
+
+.officerlist__addremovebutton {
+  display: inline-block;
+  width: 10%;
+  height: 42px;
+  margin-left: 10px;
+  border: 1px solid black;
+  top: 0px;
+  position: relative;
+  padding: 8px;
+  text-align: center;
+  background-color: #C0C0C0;
+}
